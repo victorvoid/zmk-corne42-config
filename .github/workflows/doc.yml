@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install keymap-drawer
-        run: pip install keymap-drawer
+        run: pip install 'keymap-drawer' 'tree-sitter<0.22'
 
       - name: Parse keymap
         run: |
