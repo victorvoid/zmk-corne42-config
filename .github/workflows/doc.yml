@@ -32,17 +32,20 @@ jobs:
             -z config/corne.keymap \
             > keymap_img/corne.yaml
 
+      - name: Inspect parsed layers
+        run: grep -E "^  [a-z_]+:" keymap_img/corne.yaml || true
+
       - name: Draw combined (all layers)
         run: |
           keymap -c keymap_img/keymap_drawer.config.yaml draw \
             keymap_img/corne.yaml \
             -k corne_rotated \
-            -s default_layer colemak_layer num_nav_layer fun_layer game_layer \
+            -s qwerty colemak num_nav fun game \
             > keymap_img/corne.svg
 
       - name: Draw per-layer SVGs
         run: |
-          for layer in default_layer num_nav_layer fun_layer game_layer colemak_layer; do
+          for layer in qwerty num_nav fun game colemak; do
             keymap -c keymap_img/keymap_drawer.config.yaml draw \
               keymap_img/corne.yaml \
               -k corne_rotated \
