@@ -37,12 +37,7 @@ layers:
     - {t: ., s: ':'}
     - /
     - ⏎
-  - - ⎋
-    - ⎵
-    - LCMD
-    - {t: ⇧, s: ⇪}
-    - num_nav
-    - fun
+  - [⎇, LCMD, ⎵, ⏎, num_nav, fun]
   num_nav:
   - - {t: ▽, type: trans}
     - PG UP
@@ -209,12 +204,7 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
     - ⏎
-  - - ⎋
-    - ⎵
-    - LCMD
-    - {t: ⇧, s: ⇪}
-    - num_nav
-    - fun
+  - [⎇, LCMD, ⎵, ⏎, num_nav, fun]
 combos:
 - p: [1, 13]
   k: '~'
