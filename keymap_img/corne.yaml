@@ -218,17 +218,14 @@ combos:
 - p: [4, 16]
   k: $
   l: [qwerty, colemak]
-- p: [13, 25]
-  k: '%'
-  l: [qwerty, colemak]
-- p: [14, 26]
-  k: ^
-  l: [qwerty, colemak]
 - p: [15, 27]
   k: {t: '&', s: '|'}
   l: [qwerty, colemak]
 - p: [16, 28]
   k: '*'
+  l: [qwerty, colemak]
+- p: [13, 25]
+  k: '{'
   l: [qwerty, colemak]
 - p: [5, 17]
   k: {t: '[', s: '{'}
@@ -242,6 +239,9 @@ combos:
 - p: [18, 30]
   k: )
   l: [qwerty, colemak]
+- p: [7, 19]
+  k: '}'
+  l: [qwerty, colemak]
 - p: [22, 34]
   k: {t: '`', s: '~'}
   l: [qwerty, colemak]
@@ -253,12 +253,6 @@ combos:
   l: [qwerty, colemak]
 - p: [9, 21]
   k: {t: /, s: \}
-  l: [qwerty, colemak]
-- p: [7, 19]
-  k: {t: '-', s: _}
-  l: [qwerty, colemak]
-- p: [8, 20]
-  k: _
   l: [qwerty, colemak]
 - p: [20, 32]
   k: {t: '=', s: +}
