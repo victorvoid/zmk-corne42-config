@@ -206,58 +206,70 @@ layers:
     - ⏎
   - [⎇, LCMD, ⎵, ⏎, num_nav, fun]
 combos:
-- p: [1, 13]
+- p: [0, 6]
   k: '~'
   l: [qwerty, colemak]
-- p: [2, 14]
+- p: [11, 1]
   k: '@'
   l: [qwerty, colemak]
-- p: [3, 15]
+- p: [10, 2]
   k: '#'
   l: [qwerty, colemak]
-- p: [4, 16]
+- p: [9, 3]
   k: $
   l: [qwerty, colemak]
-- p: [15, 27]
+- p: [0, 12]
+  k: '%'
+  l: [qwerty, colemak]
+- p: [1, 13]
+  k: ^
+  l: [qwerty, colemak]
+- p: [2, 14]
   k: {t: '&', s: '|'}
   l: [qwerty, colemak]
-- p: [16, 28]
+- p: [11, 23]
   k: '*'
   l: [qwerty, colemak]
-- p: [13, 25]
+- p: [12, 0]
   k: '{'
   l: [qwerty, colemak]
-- p: [5, 17]
+- p: [3, 15]
   k: {t: '[', s: '{'}
   l: [qwerty, colemak]
-- p: [17, 29]
+- p: [24, 12]
   k: (
   l: [qwerty, colemak]
 - p: [6, 18]
-  k: {t: ']', s: '}'}
-  l: [qwerty, colemak]
-- p: [18, 30]
-  k: )
-  l: [qwerty, colemak]
-- p: [7, 19]
   k: '}'
   l: [qwerty, colemak]
-- p: [22, 34]
+- p: [9, 21]
+  k: {t: ']', s: '}'}
+  l: [qwerty, colemak]
+- p: [30, 18]
+  k: )
+  l: [qwerty, colemak]
+- p: [16, 28]
   k: {t: '`', s: '~'}
   l: [qwerty, colemak]
-- p: [19, 31]
+- p: [12, 24]
   k: <
   l: [qwerty, colemak]
-- p: [21, 33]
+- p: [14, 26]
   k: '>'
   l: [qwerty, colemak]
-- p: [9, 21]
+- p: [8, 20]
   k: {t: /, s: \}
   l: [qwerty, colemak]
-- p: [20, 32]
-  k: {t: '=', s: +}
+- p: [8, 4]
+  k: {t: '-', s: _}
+  l: [qwerty, colemak]
+- p: [7, 5]
+  k: _
   l: [qwerty, colemak]
 - p: [10, 22]
+  k: {t: '=', s: +}
+  l: [qwerty, colemak]
+- p: [11, 23]
   k: +
   l: [qwerty, colemak]
 - p: [26, 27]
