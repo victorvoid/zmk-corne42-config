@@ -36,7 +36,7 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - /
-    - ⏎
+    - ⇧
   - [⎇, LCMD, ⎵, ⏎, num_nav, fun]
   num_nav:
   - - {t: ▽, type: trans}
@@ -203,7 +203,7 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
-    - ⏎
+    - ⇧
   - [⎇, LCMD, ⎵, ⏎, num_nav, fun]
 combos:
 - p: [1, 13]
@@ -251,16 +251,13 @@ combos:
 - p: [21, 33]
   k: '>'
   l: [qwerty, colemak]
-- p: [9, 21]
-  k: {t: /, s: \}
-  l: [qwerty, colemak]
 - p: [7, 19]
   k: {t: '-', s: _}
   l: [qwerty, colemak]
 - p: [8, 20]
   k: _
   l: [qwerty, colemak]
-- p: [20, 32]
+- p: [9, 21]
   k: {t: '=', s: +}
   l: [qwerty, colemak]
 - p: [10, 22]
